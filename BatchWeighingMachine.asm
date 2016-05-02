@@ -32,7 +32,10 @@
 		 
 dat1 db 11
 dat2 db 71
-;main program
+
+
+;This is the start of the main program
+
 st1:	cli
 MOV AX,0200H ; / MOV AX,SEG BUF1
 MOV DS,AX   
@@ -40,6 +43,9 @@ MOV ES,AX
 MOV SS,AX
 MOV SP,0FFFEH
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; FOR REFERENCE PURPOSES
 ;portA1 equ 0000h ; 8255 ports interfaced with ADC of Load Cell
 ;portB1 equ 0002h ; 8255 ports interfaced with ADC of Load Cell
 ;portC1 equ 0004h ; 8255 ports interfaced with ADC of Load Cell
@@ -48,10 +54,6 @@ MOV SP,0FFFEH
 ;portB2 equ 000Ah ;8255 ports interfaced with 7 segment LEDs and buzzer
 ;portC2 equ 000Ch ;8255 ports interfaced with 7 segment LEDs and buzzer
 ;cwr2 equ 000Eh ;8255 ports interfaced with 7 segment LEDs
-
-
-;Code Starts Here
-;ORG 0400H
 
 lea si,inp1
 
