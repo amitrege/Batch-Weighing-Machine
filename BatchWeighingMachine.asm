@@ -57,7 +57,8 @@ MOV SP,0FFFEH
 
 lea si,inp1
 
-mov al,98h ;initialize 8255(ADC) with control word=98H
+;initialize 8255(ADC) with control word=98H
+mov al,98h 
 out 06h,al
 
 x1:
