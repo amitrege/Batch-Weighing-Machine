@@ -167,8 +167,6 @@ call delay_1ms
 781 IS THE CONVERSION FACTOR
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-;; Converting Algorithm
-
 mov ax,781
 mov cx,0000h
 mov cl,inp1
