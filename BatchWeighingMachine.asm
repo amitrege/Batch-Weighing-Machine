@@ -30,8 +30,8 @@
 		 
 		 db     1012 dup(0)  
 		 
-dat1 db 11
-dat2 db 71
+;dat1 db 11
+;dat2 db 71
 
 
 ;This is the start of the main program
