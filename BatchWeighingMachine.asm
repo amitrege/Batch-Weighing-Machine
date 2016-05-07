@@ -55,6 +55,7 @@ MOV SP,0FFFEH
 ;portC2 equ 000Ch ;8255 ports interfaced with 7 segment LEDs and buzzer
 ;cwr2 equ 000Eh ;8255 ports interfaced with 7 segment LEDs
 
+
 lea si,inp1
 
 ;initialize 8255(ADC) with control word=98H
@@ -69,6 +70,7 @@ and al,00100000b
 cmp al,00100000b
 jnz x1
 
+; set pointer to the first of the 3 adresses where we want to store the inputs(wts)
 lea si,inp1 
 
 
