@@ -177,8 +177,12 @@ mov cl,inp1
 mul cx
 mov cx,1000
 div cx
+
+;Lower part in outp11 
 lea si,outp11
 mov [si],ax
+
+;upper part in outp12
 lea si,outp12
 mov [si],dx
 
