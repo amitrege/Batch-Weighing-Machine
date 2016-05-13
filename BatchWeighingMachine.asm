@@ -192,6 +192,8 @@ mov cl,inp2
 mul cx
 mov cx,1000
 div cx
+
+;Lower part in outp21 
 lea si,outp21
 mov [si],ax
 lea si,outp22
