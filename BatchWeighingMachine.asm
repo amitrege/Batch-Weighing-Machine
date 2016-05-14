@@ -227,7 +227,7 @@ add ax,[si]
 mov dx,0
 mov cx,1000
 div cx
-add bx,ax ; total quo in bx,total rem in dx
+add bx,ax ; total quotient in bx,total rem in dx
 
 lea si,finalrem
 mov [si],dx
