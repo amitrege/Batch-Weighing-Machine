@@ -223,7 +223,7 @@ lea si,outp22
 add ax,[si]
 lea si,outp32
 add ax,[si]
-
+;;
 mov dx,0
 mov cx,1000
 div cx
